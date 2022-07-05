@@ -1,0 +1,5 @@
+services:
+  test-he-https-tls:
+    image: mathselse/http-headers:tls-v1
+    ports:
+      - "8008:80"
